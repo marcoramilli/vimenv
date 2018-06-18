@@ -1,23 +1,16 @@
 vimenv
 ======
 
-my personal developing environment
+my personal developing environment UPDATE 2018
+
+== INSTALLING ==
+
+Please note vimrc is hidden (.vimrc)
 
 
-=====
+1) Install Vundle https://github.com/VundleVim/Vundle.vim
+2) Copy .vimrc
+3) Inside VIM (:PluginInstall)
+4) If error, in ./vim/boundle/youcompleteme, python install.py
 
-Copy .vim** files into your home directory replacing what you got.
-then run up vim on your code.
-
-Sometime you might want to update the ipathogen boundles. I do suggest the following approach:
-
-````
-
-cd ~/.vim/bundle
-for i in `ls`; do
-  cd "$i"
-  git pull
-  cd ..
-done
-
-````
+Enjoy 
